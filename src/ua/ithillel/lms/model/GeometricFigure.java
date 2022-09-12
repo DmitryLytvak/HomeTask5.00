@@ -1,6 +1,8 @@
 package ua.ithillel.lms.model;
 
-public abstract class GeometricFigure {
+import ua.ithillel.lms.api.СalculateArea;
+
+public abstract class GeometricFigure implements СalculateArea {
 	
 	private String name;
 	private String kind;

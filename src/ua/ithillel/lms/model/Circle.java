@@ -1,8 +1,7 @@
 package ua.ithillel.lms.model;
 
-import ua.ithillel.lms.api.СalculateArea;
 
-public class Circle extends GeometricFigure implements СalculateArea {
+public class Circle extends GeometricFigure {
 	
 	private double radius;
 	
