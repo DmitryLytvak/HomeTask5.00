@@ -1,6 +1,8 @@
 package ua.ithillel.lms.model;
 
-public class Square extends GeometricFigure {
+import ua.ithillel.lms.api.СalculateArea;
+
+public class Square extends GeometricFigure implements СalculateArea {
 	
 	private int sides;
 	private double sideLength;

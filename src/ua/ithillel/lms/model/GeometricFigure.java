@@ -1,8 +1,6 @@
 package ua.ithillel.lms.model;
 
-import ua.ithillel.lms.api.СalculateArea;
-
-public abstract class GeometricFigure implements СalculateArea {
+public abstract class GeometricFigure {
 	
 	private String name;
 	private String kind;
@@ -13,12 +11,6 @@ public abstract class GeometricFigure implements СalculateArea {
 		this.name = name;
 		this.kind = kind;
 		this.color = color;
-	}
-	
-	
-	@Override
-	public double calcArea() {
-		return 0;
 	}
 	
 	@Override

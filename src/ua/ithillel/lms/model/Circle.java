@@ -1,6 +1,8 @@
 package ua.ithillel.lms.model;
 
-public class Circle extends GeometricFigure {
+import ua.ithillel.lms.api.СalculateArea;
+
+public class Circle extends GeometricFigure implements СalculateArea {
 	
 	private double radius;
 	
@@ -11,7 +13,7 @@ public class Circle extends GeometricFigure {
 	
 	@Override
 	public double calcArea() {
-		return Math.PI * Math.pow(getRadius(), 2);
+		return Math.PI * Math.pow(radius, 2);
 	}
 	
 	

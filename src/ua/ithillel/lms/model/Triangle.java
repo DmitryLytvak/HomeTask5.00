@@ -1,6 +1,8 @@
 package ua.ithillel.lms.model;
 
-public class Triangle extends GeometricFigure {
+import ua.ithillel.lms.api.СalculateArea;
+
+public class Triangle extends GeometricFigure implements СalculateArea {
 	
 	private int sides;
 	private double sideLength;
